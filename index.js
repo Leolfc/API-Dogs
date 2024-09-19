@@ -3,7 +3,7 @@ async function dogs() {
     const mostraDog = await fetch("https://dog.ceo/api/breeds/image/random");
     const imgDog = await mostraDog.json();
     const imagem = document.createElement("img");
-    imagem.src = `a imagem é essa : ${imgDog}`;
+    imagem.src = imgDog.message;
     imagem.style.flex='1 1 auto';
     imagem.style.width = "100%";
    
