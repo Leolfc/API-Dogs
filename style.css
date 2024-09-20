@@ -24,10 +24,16 @@ h1 {
 }
 .botaoAtualizar {
     color: white;
-  background-color: blue;
+    border-radius: 4px;
+  background-color: rgb(43, 43, 219);
   margin: 12px;
   padding: 10px;
-  width: 50%;
+ width:40%;
   cursor: pointer;
   font-size: 1.5em;
+  border: none;
+  
+}
+.botaoAtualizar:hover{
+  background-color: cadetblue;
 }
